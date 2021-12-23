@@ -80,3 +80,15 @@ def print_many_params( **kwargs ):  #kw : keyword,  args : arguments
     
 print_many_params( name = '김현희', birth_year = 1995, phone_num = '010-2222-2222' )
     
+    
+    
+# 딕셔너리 체험 코드
+user_info = {}
+
+user_info['name'] = '김현희'
+user_info['birth_year'] = 1995
+user_info['phone_num'] = '010-2222-2222'
+
+# 실제 대입값 (value)는 자료형을 가리지 않는다.
+
+print(f'사용자 정보: {user_info}')
