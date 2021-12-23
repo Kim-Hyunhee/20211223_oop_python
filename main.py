@@ -15,4 +15,12 @@ b = add_two_numbers(10, 4)  # => 함수가 위에 있어야 그걸 활용할 수
 
 print(b)
 
-print(f'11과 15의 합은 {add_two_numbers(11,15) 입니다.}')
+print(f'11과 15의 합은 {add_two_numbers(11,15)} 입니다.')
+
+
+# 결과가 없는 함수 예시
+
+def print_my_name(my_name):
+    print('제 이름은 {my_name} 입니다.')
+    
+print_my_name('김현희')
